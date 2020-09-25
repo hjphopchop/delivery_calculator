@@ -108,5 +108,10 @@ function init() {
             }
         }
     }
+    $.ajax({
+        url: 'data.geojson',
+        dataType: 'json',
+        success: onZonesLoad
+    });
     ;
 }
