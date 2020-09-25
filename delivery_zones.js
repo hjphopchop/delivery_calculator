@@ -108,10 +108,5 @@ function init() {
             }
         }
     }
-
-    $.ajax({
-        url: 'https://www.dropbox.com/s/86frgpi2hck3bwu/data.geojson?dl=0',
-        dataType: 'json',
-        success: onZonesLoad
-    });
+    ;
 }
